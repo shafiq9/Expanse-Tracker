@@ -51,7 +51,7 @@ expanseList.addEventListener("click", function(event){
     if(event.target.classList.contains("delete-expanse-btn")){
         const index = Array.from(event.target.parentNode.parentNode.childern)
         .indexOf(event.target.parentNode);
-        
+
         deleteExpanse(index);
     }
 });
