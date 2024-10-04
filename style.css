@@ -46,6 +46,47 @@ body{
     -o-transition: background-color 0.3s ease;
 }
 
-.total-expans{
+.total-expanses{
     text-align: right;
+}
+
+.expanse-list{
+    margin-bottom: 20px;
+}
+
+.expanse-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.expanse-item-description{
+    font-weight: bold;
+}
+
+.expanse-item-amount{
+    font-weight: bold;
+}
+
+.delete-expanse-btn{
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
 }
